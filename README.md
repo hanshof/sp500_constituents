@@ -3,7 +3,7 @@ List of S&amp;P 500 historical constituents from 1996/01/02 to present. CSV form
 
 Description of Files
 
- current S&P 500 composition from Wikipedia and outputs 'sp500.csv'
+'sp500_constituents.csv' current S&P 500 composition from Wikipedia and output from 'sp500.py'
 S&P 500 Historical Components & Changes(MM-DD-YYYY).csv: contains historical S&P 500 index membership from 1996 til MM-DD-YYYY. Output from 'sp500_historical.ipynb'
 
 S&P 500 Historical Components & Changes.csv: original historical S&P 500 index membership csv file. Input to 'sp500_historical.ipynb'
