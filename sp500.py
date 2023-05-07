@@ -48,8 +48,7 @@ def main():
     # output
     final = final.drop_duplicates(subset=['date', 'tickers'],keep='last')
     final.to_csv('sp_500_historical_components.csv', index=False)
-    final.to_json('sp_500_historical_components.json')
-
+    
 
 if __name__ == '__main__':
     main()
